@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hepparticles
+# catalog-date 2007-02-23 00:16:39 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-hepparticles
 Version:	20070223
 Release:	1
@@ -55,6 +61,7 @@ used.
 %doc %{_texmfdistdir}/doc/latex/hepparticles/hepparticles.tex
 %doc %{_texmfdistdir}/doc/latex/hepparticles/testhepparticles.pdf
 %doc %{_texmfdistdir}/doc/latex/hepparticles/testhepparticles.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ used.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
