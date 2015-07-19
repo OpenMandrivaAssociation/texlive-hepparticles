@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hepparticles
 Version:	20070223
-Release:	9
+Release:	10
 Summary:	Macros for typesetting high energy physics particle names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepparticles
