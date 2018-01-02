@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/hepparticles
-# catalog-date 2007-02-23 00:16:39 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-hepparticles
-Version:	20070223
-Release:	10
+Version:	2.0
+Release:	1
 Summary:	Macros for typesetting high energy physics particle names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepparticles
@@ -46,12 +40,8 @@ used.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/hepparticles/hepparticles.sty
-%doc %{_texmfdistdir}/doc/latex/hepparticles/README
-%doc %{_texmfdistdir}/doc/latex/hepparticles/hepparticles.pdf
-%doc %{_texmfdistdir}/doc/latex/hepparticles/hepparticles.tex
-%doc %{_texmfdistdir}/doc/latex/hepparticles/testhepparticles.pdf
-%doc %{_texmfdistdir}/doc/latex/hepparticles/testhepparticles.tex
+%{_texmfdistdir}/tex/latex/hepparticles
+%doc %{_texmfdistdir}/doc/latex/hepparticles
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,17 +52,3 @@ used.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070223-2
-+ Revision: 752541
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070223-1
-+ Revision: 718610
-- texlive-hepparticles
-- texlive-hepparticles
-- texlive-hepparticles
-- texlive-hepparticles
-
