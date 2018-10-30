@@ -1,6 +1,6 @@
 Name:		texlive-hepparticles
 Version:	2.0
-Release:	2
+Release:	3
 Summary:	Macros for typesetting high energy physics particle names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepparticles
