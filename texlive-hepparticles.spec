@@ -3,7 +3,7 @@ Version:	35723
 Release:	2
 Summary:	Macros for typesetting high energy physics particle names
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepparticles
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hepparticles
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hepparticles.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hepparticles.doc.r%{version}.tar.xz
